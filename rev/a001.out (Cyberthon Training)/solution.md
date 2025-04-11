@@ -30,7 +30,7 @@ int32_t main(int32_t argc, char** argv, char** envp)
 }
 ```
 
-i looked into it, and i realised it was definitely xoring something. so i ran it through chatgpt to get me a xoring function in python, and i didn't know the seed so i had to brute force it. this code brute forces seeds until it gets the correct one.
+i looked into it, and i realised it was definitely xoring something. so i ran it through chatgpt to get me a xorshift32 function in python, and i didn't know the seed so i had to brute force it. this code brute forces seeds until it gets the correct one.
 
 ```
 POOL = (
