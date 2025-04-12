@@ -1,3 +1,4 @@
+# quantum scrambler solution
 first, i put the output into an output.txt file;
 ```nc verbal-sleep.picoctf.net 54825 > output.txt```
 

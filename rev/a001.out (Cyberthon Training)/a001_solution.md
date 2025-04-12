@@ -1,5 +1,8 @@
 # solution for a001.out
-first, i put the binary into ghidra. 
+
+![alt text](a001.png)
+
+first, i load the file in ghidra. 
 
 i found some string containing curly braces, which i believed was the flag;
 ```
