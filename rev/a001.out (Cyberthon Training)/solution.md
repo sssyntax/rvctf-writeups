@@ -1,4 +1,7 @@
 # solution for a001.out
+
+[a001.jpg](rev/a001.out (Cyberthon Training)/a001.out.jpeg)
+
 first, i put the binary into ghidra. 
 
 i found some string containing curly braces, which i believed was the flag;
