@@ -1,8 +1,8 @@
 # solution for a001.out
 
-[a001.jpg](rev/a001.out (Cyberthon Training)/a001.out.jpeg)
+![alt text](a001.png)
 
-first, i put the file into ghidra. 
+first, i load the file in ghidra. 
 
 i found some string containing curly braces, which i believed was the flag;
 ```
