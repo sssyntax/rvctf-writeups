@@ -27,7 +27,7 @@ void win(void)
 
 then, i used pwndbg to find the offset:
 
-1. ```gdb ./vuln```, i will enter pwndbg.
+1. ```gdb ./vuln```, which will enter pwndbg.
 2. since ```./vuln``` is a 32 bit executable, i run ```cyclic 100 -n 4``` in pwndbg to get a really long string.
 
 -> i run ```cyclic -n 4``` because on 32-bit systems, the stack is overwritten in 4-byte chunks, and i want cyclic_find() to search correctly.
