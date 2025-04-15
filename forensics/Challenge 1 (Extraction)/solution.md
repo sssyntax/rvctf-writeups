@@ -1,1 +1,1 @@
-echo -n "57866696c0861747461636b657203636f6d0000010001" | xxd -r -p | nc -u chals.swampctf.com 44254
+# Forensics Challenge 1 (Extraction) solution
