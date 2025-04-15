@@ -31,7 +31,7 @@ the letters are capitalised funny. i wonder if this is a clue? BITS, LEAST, SIG,
 
 ![indexes.png](images/indexes.png)
 
-so i sort the sheets by smallest index to largest index, using data > sort sheet (selecting both cols b and c) > a-z
+so i sort the sheets by smallest index to largest index, using data > sort sheet (selecting both cols b and c) > a-z, then i download the hidden sheet as a csv.
 
 then, i code up this notebook to select the least significant bits of each binary number and add them to a string to get the flag. 
 
