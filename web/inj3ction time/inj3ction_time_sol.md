@@ -10,17 +10,7 @@ in the challenge, it is given that "UNION might be a helpful command", so i am s
 
 i'll enter something like "1=1" into the website.
 
-IMAGE
-
 it gives me the these things, the dog's name, breed and colour. since it is stated that UNION is a useful command, i'll try using it now. i want to know how many columns there are in this table, so i will brute force it with a `1 UNION SELECT NULL * however many times it takes for me to get the number of columns`.
-
-IMAGE
-
-IMAGE
-
-IMAGE
-
-IMAGE
 
 when i enter `1 UNION SELECT NULL, NULL, NULL, NULL` it gives me the homepage, which means there are 4 columns in this database. 
 
