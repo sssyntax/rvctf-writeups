@@ -3,9 +3,9 @@ output = ['13558', '12790', '14966', '13174', '15862', '13302', '15094', '13046'
 flag = []
 for y_str in output:
     y = int(y_str)
-    B = y ^ -10        # Undo XOR with ~9 (which is -10)
-    A = B >> 7         # Undo left shift by 7 bits
-    c = -A - 1         # Undo bitwise NOT (~)
+    B = y ^ -10        # undo XOR with ~9 (which is -10)
+    A = B >> 7         # undo left shift by 7 bits
+    c = -A - 1         # undo bitwise NOT (~)
     flag.append(chr(c))
 
 print("".join(flag))
