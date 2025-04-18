@@ -8,4 +8,4 @@ for y_str in output:
     c = -A - 1         # Undo bitwise NOT (~)
     flag.append(chr(c))
 
-print("Flag:", "".join(flag))
+print("".join(flag))
